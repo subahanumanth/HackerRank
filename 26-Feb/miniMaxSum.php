@@ -1,5 +1,3 @@
-//https://www.hackerrank.com/challenges/mini-max-sum/problem
-
 <?php
 
 function miniMaxSum($arr) {
@@ -10,6 +8,6 @@ function miniMaxSum($arr) {
         array_push($result, array_sum($arr));
         array_push($arr, $temp);
     }
-    echo min($result)." ".max($result);
-}
 
+    echo sprintf("%u %u",min($result),max($result));
+}

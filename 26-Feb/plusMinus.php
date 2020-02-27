@@ -1,5 +1,3 @@
-//https://www.hackerrank.com/challenges/plus-minus/problem
-
 <?php
 
 function plusMinus($arr) {

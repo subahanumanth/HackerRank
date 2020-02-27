@@ -1,5 +1,3 @@
-//https://www.hackerrank.com/challenges/pairs/problem
-
 <?php
 
 function pairs($k, $arr) {
